@@ -1,0 +1,23 @@
+{
+  "name": "screen-capture-with-phantomjs",
+  "version": "1.1.0",
+  "private": true,
+  "description": "AWS Lambda function to resize video and generate a thumbnail",
+  "main": "index.js",
+  "keywords": [
+    "aws",
+    "lambda",
+    "ffmpeg"
+  ],
+  "author": "Çağatay Çalı - MovieLaLa",
+  "license": "Unlicense",
+  "devDependencies": {
+    "aws-sdk": "2.2.32"
+  },
+  "dependencies": {
+    "exec": "^0.2.1",
+    "path": "^0.12.7",
+    "streaming-s3": "^0.4.1",
+    "utils": "^0.3.1"
+  }
+}
