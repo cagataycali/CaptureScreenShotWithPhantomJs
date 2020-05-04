@@ -18,6 +18,12 @@
     "exec": "^0.2.1",
     "path": "^0.12.7",
     "streaming-s3": "^0.4.1",
-    "utils": "^0.3.1"
-  }
+    "utils": "^0.3.1",
+    "snyk": "^1.317.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
