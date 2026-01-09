@@ -12,7 +12,7 @@
   "author": "Çağatay Çalı - MovieLaLa",
   "license": "Unlicense",
   "devDependencies": {
-    "aws-sdk": "2.2.32"
+    "aws-sdk": "2.1693.0"
   },
   "dependencies": {
     "exec": "^0.2.1",
